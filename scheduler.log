@@ -1,0 +1,2016 @@
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1750069016784,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1750069016943,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+
+1 Failed download:
+['^NSEBANK']: SSLError('Failed to perform, curl: (35) TLS connect error: error:00000000:invalid library (0):OPENSSL_internal:invalid library (0). See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+📥 Fetching BANKNIFTY live data...
+❌ Failed to fetch live data.
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1750154295612,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1750154295739,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1750241391635,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1750241415960,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1750328297611,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1750328297757,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1750413497789,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1750413498149,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:856: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  array = np.asarray(array, order=order, dtype=dtype)
+📥 Fetching BANKNIFTY live data...
+🤖 AI Signal: HOLD
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1750499754332,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1750499754742,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:856: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  array = np.asarray(array, order=order, dtype=dtype)
+📥 Fetching BANKNIFTY live data...
+🤖 AI Signal: HOLD
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1750587503356,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1750587503598,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1750672243770,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1750672243971,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1750758390859,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1750758390995,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1750845532190,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1750845532348,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1750931935513,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1750931935660,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1751017945558,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1751017945682,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:856: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  array = np.asarray(array, order=order, dtype=dtype)
+/Users/saiyaganti/ai_trading_bot/main.py:65: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  ltp = float(df["Close"].iloc[-1])
+📥 Fetching BANKNIFTY live data...
+🤖 AI Signal: BUY PUT
+✅ BANKNIFTY LTP (approx): ₹57399.94921875
+[Dry Run] Would place order for BANKNIFTY-Jul2025-57400-PE (PE)
+📊 Trade logged to trade_logs.csv
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1751108197522,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1751108197735,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1751108197868,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751108198009,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:856: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  array = np.asarray(array, order=order, dtype=dtype)
+/Users/saiyaganti/ai_trading_bot/main.py:65: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  ltp = float(df["Close"].iloc[-1])
+📥 Fetching BANKNIFTY live data...
+🤖 AI Signal: BUY PUT
+✅ BANKNIFTY LTP (approx): ₹57399.94921875
+[Dry Run] Would place order for BANKNIFTY-Jul2025-57400-PE (PE)
+📊 Trade logged to trade_logs.csv
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1751190716087,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1751190716212,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1751190716364,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751190716493,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751190716627,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751190716760,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1751277735898,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1751277736032,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1751277736163,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751277736307,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751277736436,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751277736574,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1751363171303,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1751363171439,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1751363171569,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751363171700,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751363171875,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751363172005,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1751450340721,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1751450340862,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1751450341020,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751450341174,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751450341323,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751450341469,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1751538251534,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1751538251671,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1751538251806,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751538251945,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751538252085,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751538252220,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1751623110721,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1751623110866,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1751623111016,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751623111158,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751623111316,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751623111453,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:856: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  array = np.asarray(array, order=order, dtype=dtype)
+/Users/saiyaganti/ai_trading_bot/main.py:65: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  ltp = float(df["Close"].iloc[-1])
+📥 Fetching BANKNIFTY live data...
+🤖 AI Signal: BUY PUT
+✅ BANKNIFTY LTP (approx): ₹57044.80078125
+[Dry Run] Would place order for BANKNIFTY-Jul2025-57000-PE (PE)
+📊 Trade logged to trade_logs.csv
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1751709231439,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1751709231588,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1751709231792,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751709231954,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751709232164,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751709232573,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751709232941,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1751709233596,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:856: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  array = np.asarray(array, order=order, dtype=dtype)
+/Users/saiyaganti/ai_trading_bot/main.py:65: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  ltp = float(df["Close"].iloc[-1])
+📥 Fetching BANKNIFTY live data...
+🤖 AI Signal: BUY PUT
+✅ BANKNIFTY LTP (approx): ₹57044.80078125
+[Dry Run] Would place order for BANKNIFTY-Jul2025-57000-PE (PE)
+📊 Trade logged to trade_logs.csv
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1751795682831,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1751795682966,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1751795683102,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751795683236,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751795683379,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751795683519,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751795683677,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1751795683810,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1751795683948,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1751795684083,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1751882258759,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1751882259242,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1751882259785,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751882259955,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751882260119,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751882260285,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751882260443,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1751882260610,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1751882260773,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1751882260940,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1751968112030,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1751968112155,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1751968112299,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751968112432,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751968112569,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751968112703,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1751968112847,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1751968112990,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1751968113136,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1751968113282,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1752054535853,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1752054536000,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1752054536137,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1752054536273,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1752054536411,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1752054536546,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1752054536683,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1752054536814,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1752054536949,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1752054537086,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1752142566666,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1752142566809,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1752142566956,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1752142567101,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1752142567241,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1752142567382,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1752142567528,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1752142567662,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1752142567802,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1752142567953,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1752228310031,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1752228310177,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1752228310332,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1752228310463,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1752228310588,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1752228310763,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1752228310904,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1752228311041,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1752228311185,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1752228311319,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+
+1 Failed download:
+['^NSEBANK']: DNSError('Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+📥 Fetching BANKNIFTY live data...
+❌ Failed to fetch live data.
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1752313800110,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1752313800243,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1752313800386,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1752313800519,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1752313800646,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1752313800788,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1752313800922,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1752313801072,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1752313801217,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1752313801369,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+
+1 Failed download:
+['^NSEBANK']: DNSError('Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+📥 Fetching BANKNIFTY live data...
+❌ Failed to fetch live data.
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1753283704288,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1753283704534,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1753283705233,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753283705386,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753283705574,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753283705761,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753283705883,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753283706070,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753283706264,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753283706384,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:856: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  array = np.asarray(array, order=order, dtype=dtype)
+/Users/saiyaganti/ai_trading_bot/main.py:65: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  ltp = float(df["Close"].iloc[-1])
+📥 Fetching BANKNIFTY live data...
+🤖 AI Signal: BUY PUT
+✅ BANKNIFTY LTP (approx): ₹57191.6484375
+[Dry Run] Would place order for BANKNIFTY-Jul2025-57200-PE (PE)
+📊 Trade logged to trade_logs.csv
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x121c6e310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x121c6ed30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x121c6e310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x121c6ed30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x121c6e310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x121c6ed30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x121c6e310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x121c6ed30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x121c6e310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x121c6ed30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x121c6e310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x121c6ed30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+
+1 Failed download:
+['^NSEBANK']: Timeout('Failed to perform, curl: (28) Connection timed out after 348484 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+📥 Fetching BANKNIFTY live data...
+❌ Failed to fetch live data.
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1753438161668,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1753438162206,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1753438162691,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753438163199,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753438163352,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753438163486,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753438163634,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753438163778,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753438163913,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753438164046,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753438164185,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1753438164344,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+
+1 Failed download:
+['^NSEBANK']: Timeout('Failed to perform, curl: (28) Connection timed out after 30004 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+📥 Fetching BANKNIFTY live data...
+❌ Failed to fetch live data.
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1753523727927,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1753523728055,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1753523728187,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753523728323,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753523728455,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753523728584,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753523728713,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753523728847,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753523728974,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753523729096,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753523729221,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1753523729354,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:856: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  array = np.asarray(array, order=order, dtype=dtype)
+📥 Fetching BANKNIFTY live data...
+🤖 AI Signal: HOLD
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1753612810577,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1753612810702,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1753612810823,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753612810954,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753612811093,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753612811224,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753612811354,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753612811491,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753612811638,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753612811765,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753612811907,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1753612812054,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1753699223267,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1753699223401,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1753699223525,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753699223659,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753699223783,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753699223913,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753699224042,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753699224171,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753699224295,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753699224427,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753699224548,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1753699224684,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1753783018895,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1753783019027,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1753783019162,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753783019339,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753783019461,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753783019606,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753783019750,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753783019877,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753783020008,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753783020135,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753783020273,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1753783020415,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1753872023706,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1753872024183,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1753872024721,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753872024991,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753872025129,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753872025274,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753872025404,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753872025543,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753872025691,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753872025815,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753872025967,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1753872026103,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1753955828009,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1753955828152,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1753955828282,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753955828421,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753955828551,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753955828701,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1753955828832,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753955828986,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753955829120,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753955829253,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1753955829375,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1753955829524,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1754042258392,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1754042258514,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1754042258672,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754042258820,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754042258975,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754042259118,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754042259268,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754042259412,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754042259584,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754042259722,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754042259863,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1754042260005,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:856: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  array = np.asarray(array, order=order, dtype=dtype)
+📥 Fetching BANKNIFTY live data...
+🤖 AI Signal: HOLD
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1754128582167,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1754128582291,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1754128582389,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754128582500,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754128582613,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754128582732,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754128582877,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754128583024,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754128583267,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754128583582,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754128584065,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1754128584416,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:856: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  array = np.asarray(array, order=order, dtype=dtype)
+📥 Fetching BANKNIFTY live data...
+🤖 AI Signal: HOLD
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1754215033861,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1754215033992,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1754215034090,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754215034212,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754215034319,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754215034417,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754215034503,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754215034607,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754215034702,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754215034795,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754215034898,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1754215034990,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1754301723228,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1754301723398,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1754301723552,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754301723706,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754301723852,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754301723996,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754301724134,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754301724281,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754301724426,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754301724567,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754301724700,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1754301724831,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1754387782070,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1754387782295,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1754387782477,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754387782623,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754387782788,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754387782942,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754387783100,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754387783266,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754387783444,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754387783589,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754387783738,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1754387783886,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1754474179789,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1754474179948,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1754474180083,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754474180217,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754474180345,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754474180489,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754474180668,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754474180843,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754474180988,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754474181152,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754474181307,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1754474181497,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1754560857426,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1754560857639,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1754560857851,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754560858076,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754560858657,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754560859603,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754560860660,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754560861146,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754560861326,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754560861470,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754560861616,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1754560861857,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1754648569748,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1754648569916,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1754648570085,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754648570260,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754648570430,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754648570590,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754648570754,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754648570925,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754648571121,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754648571288,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754648571454,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1754648571629,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:856: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  array = np.asarray(array, order=order, dtype=dtype)
+📥 Fetching BANKNIFTY live data...
+🤖 AI Signal: HOLD
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1754734348755,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1754734348910,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1754734349068,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754734349215,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754734349378,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754734349523,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754734349676,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754734349866,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754734350024,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754734350198,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754734350337,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1754734350507,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:856: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  array = np.asarray(array, order=order, dtype=dtype)
+📥 Fetching BANKNIFTY live data...
+🤖 AI Signal: HOLD
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1754819711611,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1754819711739,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1754819711876,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754819711999,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754819712155,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754819712309,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754819712459,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754819712593,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754819712731,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754819712866,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754819713002,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1754819713149,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1754906184890,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1754906185027,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1754906185162,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754906185323,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754906185467,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754906185600,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754906185745,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754906185875,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754906186013,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754906186147,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754906186283,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1754906186425,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1754995211491,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1754995211591,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1754995211703,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754995211810,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754995211915,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754995212024,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1754995212134,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754995213243,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754995213353,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754995213468,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1754995213625,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1754995213880,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1755081607139,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1755081607294,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1755081607441,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1755081607574,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1755081607714,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1755081607877,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1755081608028,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1755081608218,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1755081608363,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1755081608510,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1755081608729,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1755081608860,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+
+1 Failed download:
+['^NSEBANK']: DNSError('Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+📥 Fetching BANKNIFTY live data...
+❌ Failed to fetch live data.
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1755165387818,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1755165387992,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1755165388149,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1755165388324,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1755165388499,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1755165388662,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1755165388830,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1755165389005,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1755165389189,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1755165389349,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1755165389523,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1755165389685,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:856: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  array = np.asarray(array, order=order, dtype=dtype)
+📥 Fetching BANKNIFTY live data...
+🤖 AI Signal: HOLD
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1755254400297,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1755254400432,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1755254400563,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1755254400694,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1755254400834,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1755254400988,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1755254401150,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1755254401318,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1755254401456,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1755254401613,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1755254401771,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1755254401913,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+
+1 Failed download:
+['^NSEBANK']: DNSError('Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+📥 Fetching BANKNIFTY live data...
+❌ Failed to fetch live data.
+🔍 Reading trade logs...
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1177aa310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1177aad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1177aa310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1177aad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1177aa310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1177aad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1177aa310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1177aad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1177aa310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1177aad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1177aa310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1177aad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+
+1 Failed download:
+['^NSEBANK']: DNSError('Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+📥 Fetching BANKNIFTY live data...
+❌ Failed to fetch live data.
+🔍 Reading trade logs...
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1198ea310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1198ead30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1198ea310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1198ead30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1198ea310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1198ead30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1198ea310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1198ead30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1198ea310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1198ead30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1198ea310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x1198ead30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/sklearn/utils/validation.py:856: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  array = np.asarray(array, order=order, dtype=dtype)
+/Users/saiyaganti/ai_trading_bot/main.py:65: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  ltp = float(df["Close"].iloc[-1])
+📥 Fetching BANKNIFTY live data...
+🤖 AI Signal: BUY CALL
+✅ BANKNIFTY LTP (approx): ₹53993.3984375
+[Dry Run] Would place order for BANKNIFTY-Sep2025-54000-CE (CE)
+📊 Trade logged to trade_logs.csv
+🔍 Reading trade logs...
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x117d7e310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x117d7ed30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x117d7e310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x117d7ed30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x117d7e310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x117d7ed30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x117d7e310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x117d7ed30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x117d7e310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x117d7ed30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x117d7e310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x117d7ed30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x117d7e310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x117d7ed30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1756807686466,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1756807686612,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1756807686756,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1756807686968,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1756807687109,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1756807687269,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1756807687424,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1756807687587,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1756807687748,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1756807687941,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1756807688106,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1756807688261,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1756807688432,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+❌ Failed to fetch LTP: {"timestamp":1756807688575,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1756893421816,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1756893421950,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1756893422100,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1756893422231,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1756893423503,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1756893423634,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1756893423777,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1756893424024,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1756893424231,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1756893424379,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1756893424536,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1756893424673,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1756893424808,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+❌ Failed to fetch LTP: {"timestamp":1756893424946,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+📥 Fetching BANKNIFTY live data...
+Traceback (most recent call last):
+  File "/Users/saiyaganti/ai_trading_bot/main.py", line 47, in <module>
+    latest = df.iloc[-1]
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1191, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1752, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/Users/saiyaganti/Library/Python/3.9/lib/python/site-packages/pandas/core/indexing.py", line 1685, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1756980320574,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1756980320734,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1756980320901,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1756980321080,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1756980321528,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1756980321957,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1756980322330,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1756980322813,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1756980323327,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1756980323839,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1756980324107,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1756980324242,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1756980324392,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+❌ Failed to fetch LTP: {"timestamp":1756980324532,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+
+1 Failed download:
+['^NSEBANK']: DNSError('Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+📥 Fetching BANKNIFTY live data...
+❌ Failed to fetch live data.
+🔍 Reading trade logs...
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11682a310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11682ad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11682a310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11682ad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11682a310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11682ad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11682a310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11682ad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11682a310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11682ad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11682a310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11682ad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11682a310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11682ad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+
+1 Failed download:
+['^NSEBANK']: DNSError('Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+📥 Fetching BANKNIFTY live data...
+❌ Failed to fetch live data.
+🔍 Reading trade logs...
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x12442a310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x12442ad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x12442a310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x12442ad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x12442a310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x12442ad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x12442a310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x12442ad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x12442a310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x12442ad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x12442a310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x12442ad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x12442a310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x12442ad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+
+1 Failed download:
+['^NSEBANK']: DNSError('Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+📥 Fetching BANKNIFTY live data...
+❌ Failed to fetch live data.
+🔍 Reading trade logs...
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x123027310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x123027d30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x123027310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x123027d30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x123027310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x123027d30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x123027310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x123027d30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x123027310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x123027d30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x123027310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x123027d30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x123027310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x123027d30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+
+1 Failed download:
+['^NSEBANK']: DNSError('Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+📥 Fetching BANKNIFTY live data...
+❌ Failed to fetch live data.
+🔍 Reading trade logs...
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11c2aa310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11c2aad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11c2aa310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11c2aad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11c2aa310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11c2aad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11c2aa310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11c2aad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11c2aa310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11c2aad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11c2aa310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11c2aad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11c2aa310>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+⚠️ LTP Exception: HTTPSConnectionPool(host='api.dhan.co', port=443): Max retries exceeded with url: /market/quotes/latest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x11c2aad30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+⚠️ No trades exited.
+/Users/saiyaganti/ai_trading_bot/main.py:34: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(yf_symbol, interval="15m", period="1d")
+[*********************100%***********************]  1 of 1 completed
+
+1 Failed download:
+['^NSEBANK']: DNSError('Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+📥 Fetching BANKNIFTY live data...
+❌ Failed to fetch live data.
+🔍 Reading trade logs...
+❌ Failed to fetch LTP: {"timestamp":1757456170335,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-28500-PE
+❌ Failed to fetch LTP: {"timestamp":1757456171742,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jun2025-55600-PE
+❌ Failed to fetch LTP: {"timestamp":1757456173116,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1757456174486,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1757456175926,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1757456177301,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57400-PE
+❌ Failed to fetch LTP: {"timestamp":1757456178688,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1757456180067,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1757456181497,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1757456182861,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57000-PE
+❌ Failed to fetch LTP: {"timestamp":1757456184317,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1757456185690,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Jul2025-57200-PE
+❌ Failed to fetch LTP: {"timestamp":1757456187069,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+❌ Failed to fetch LTP: {"timestamp":1757456188509,"status":404,"error":"Not Found","path":"/market/quotes/latest"}
+❌ Failed to fetch LTP for BANKNIFTY-Sep2025-54000-CE
+⚠️ No trades exited.

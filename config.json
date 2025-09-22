@@ -1,0 +1,5 @@
+{
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJkaGFuIiwicGFydG5lcklkIjoiIiwiZXhwIjoxNzUyNTA0NDQxLCJ0b2tlbkNvbnN1bWVyVHlwZSI6IlNFTEYiLCJ3ZWJob29rVXJsIjoiaHR0cHM6Ly9leGFtcGxlLmNvbSAiLCJkaGFuQ2xpZW50SWQiOiIxMTA3NDAwMjU0In0._pc2IfNHPgZLphXFxS-IQhJX5kpZiHzXVZax_N_R_5exMmmmj3YcutJo6MRTDJh9NKKH7LPFm8F-GKn6pMFBDA",
+  "dry_run": true,
+  "underlying": "BANKNIFTY"
+}
